@@ -1,0 +1,33 @@
+# Gradle
+.gradle/
+build/
+*.apk
+*.aab
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+
+# Local properties
+local.properties
+
+# Firebase
+google-services.json
+
+# Secrets
+.env
+*.key
+secrets/
+
+# IDE
+out/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+.DS_Store
