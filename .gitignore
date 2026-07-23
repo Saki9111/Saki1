@@ -1,26 +1,28 @@
-# Gradle
+# Android Gradients
 .gradle/
 build/
 *.apk
 *.aab
+*.jks
+*.keystore
 
 # Android Studio
 .idea/
 *.iml
 *.iws
 *.ipr
-.DS_Store
+*.log
 
 # Local properties
 local.properties
 
 # Firebase
 google-services.json
-
-# Secrets
-.env
-*.key
 secrets/
+
+# Environment
+.env
+.env.local
 
 # IDE
 out/
@@ -31,3 +33,7 @@ out/
 # OS
 Thumbs.db
 .DS_Store
+.AppleDouble
+
+# Gradle
+.gradle
